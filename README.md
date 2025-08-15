@@ -4,20 +4,6 @@ A simple Python Flask app containerized with Docker and deployed on Kubernetes. 
 
 ---
 
-## Table of Contents
-
-- [What is DevOps?](#what-is-devops)
-- [Prerequisites](#prerequisites)
-- [Install Minikube and Dependencies](#install-minikube-and-dependencies)
-- [How to Use](#how-to-use)
-  - [1. Clone the Code](#1-clone-the-code)
-  - [2. Docker: Build, Run, Push](#2-docker-build-run-push)
-  - [3. Kubernetes: Deploy](#3-kubernetes-deploy)
-  - [4. Update the App](#4-update-the-app)
-  - [5. Clean Up](#5-clean-up)
-- [Notes](#notes)
-
----
 
 ## What is DevOps?
 
