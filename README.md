@@ -1,4 +1,6 @@
+To do this project, we need t2.medium. 
 
+I practiced this using t2.micro when i was practicng docker. Afterthat, I practiced on t2.medium. 
 
 To this project, you need to change:
 - Your dockerhub username in docker tag and docker push command
@@ -11,8 +13,12 @@ To this project, you need to change:
 ## Code (GitHub)
 ```bash
 git clone https://github.com/bilal-amjad-dev/python-flask-app.git
+---
+```baash
 cd python-flask-app
 ```
+
+
 
 ## Build (Docker) 
 (Dockerfile, Image, Container, Push)
@@ -36,10 +42,15 @@ Please change your dockerhub username in `docker tag` and `docker push` commands
 
 ```bash
 docker login
+```
+```bash
 docker tag python-flask-app:v1 YOUR-DOCKERHUB-USERNAME/python-flask-app:v1
+```
+```bash
 docker push YOUR-DOCKERHUB-USERNAME/python-flask-app:v1
 ```
 
+Please write here your dockerhub username. 
 
 ## Deploy (Kubernetes)
 
