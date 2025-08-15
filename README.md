@@ -1,7 +1,7 @@
 
 
 To this project, you need to change:
-- Your dockerhub username in docker push command
+- Your dockerhub username in docker tag and docker push command
 - Your dockerhub username in deployment.yaml file 
 
 
@@ -27,6 +27,8 @@ docker run -it -p 5000:5000 python-flask-app:v1:v1
 ```
 
 - **Push**
+Please change your dockerhub username in `docker tag` and `docker push` commands.
+
 ```bash
 docker login
 docker tag python-flask-app:v1 YOUR-DOCKERHUB-USERNAME/python-flask-app:v1
@@ -36,6 +38,7 @@ docker push YOUR-DOCKERHUB-USERNAME/python-flask-app:v1
 
 ## Deploy (Kubernetes)
 
+Please change your dockerhub username in `deployment.yaml` file. 
 
 ```bash
 kubectl apply -f k8s/manifests/deployment.yaml
