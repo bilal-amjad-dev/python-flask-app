@@ -23,7 +23,7 @@ docker build -t python-flask-app:v1 .
 
 - **Container**
 ```bash
-docker run -it -p 5000:5000 python-flask-app:v1:v1
+docker run -it -p 5000:5000 python-flask-app:v1:
 ```
 
 - **Push**
