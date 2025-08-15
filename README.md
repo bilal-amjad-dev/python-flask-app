@@ -25,7 +25,11 @@ docker build -t python-flask-app:v1 .
 ```bash
 docker run -it -p 5000:5000 python-flask-app:v1
 ```
+
 Note, please open port 5000 of your security group.
+
+Press CTRL+C to quit
+
 
 - **Push**
 Please change your dockerhub username in `docker tag` and `docker push` commands.
