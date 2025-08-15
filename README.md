@@ -31,7 +31,7 @@ In this project, we do:
 
 All steps are done manually to help beginners learn.
 
-> **Important:** Before you start, remember you need to make these two changes in this project:
+> **Important:** Remember you need to make these two changes in this project:
 > 1. Replace `YOUR-DOCKERHUB-USERNAME` with your DockerHub username in the Docker tag and push commands.
 > 2. Replace `YOUR-DOCKERHUB-USERNAME` with your DockerHub username in the `k8s/manifests/deployment.yaml` file under the `image` section.
 
