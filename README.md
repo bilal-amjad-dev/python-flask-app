@@ -13,7 +13,7 @@ To this project, you need to change:
 ## Code (GitHub)
 ```bash
 git clone https://github.com/bilal-amjad-dev/python-flask-app.git
----
+```
 ```baash
 cd python-flask-app
 ```
