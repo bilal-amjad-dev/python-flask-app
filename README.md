@@ -203,6 +203,5 @@ kubectl delete -f k8s/manifests/service.yaml
 
 ---
 
-That's it! You are now set to run your Flask app on Kubernetes step by step.
-
+Commit Date: 15-Aug-2025
 
