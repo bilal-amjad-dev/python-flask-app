@@ -1,9 +1,16 @@
 **What is Devops?**
+
 In devops, we have code.
 
-the code is build (Dockerfile, Image, run_container_locally, Push), and Deploy (Kubernetes).
+the code is:
+- build (Dockerfile, Image, run_container_locally, Push),
+- and Deploy (Kubernetes).
 
-When a developer makes a commit in code, the code is build (Dockerfile, Image, run_container_locally, Push), and Deploy (Kubernetes).
+When a developer makes a commit in code, the code is:
+- build (Dockerfile, Image, run_container_locally, Push),
+- and Deploy (Kubernetes).
+
+In this project, we achieve this manual means without automation. 
 
 To do this project, we need t2.medium. Means 2 cpu and 4 gb ram.  
 
