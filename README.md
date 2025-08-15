@@ -1,4 +1,11 @@
-To do this project, we need t2.medium. 
+**What is Devops?**
+In devops, we have code.
+
+the code is build (Dockerfile, Image, run_container_locally, Push), and Deploy (Kubernetes).
+
+When a developer makes a commit in code, the code is build (Dockerfile, Image, run_container_locally, Push), and Deploy (Kubernetes).
+
+To do this project, we need t2.medium. Means 2 cpu and 4 gb ram.  
 
 I practiced this using t2.micro when i was practicng docker. Afterthat, I practiced on t2.medium. 
 
